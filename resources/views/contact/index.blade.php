@@ -7,7 +7,7 @@
 @section('content')
     {{-- Promo Block --}}
     <section class="u-bg-overlay g-bg-size-cover g-bg-pos-center g-bg-black-opacity-0_3--after"
-             style="background-image: url(../../assets/img-temp/1920x800/img4.jpg);">
+             style="background-image: url({!! url('storage/abouts/NCObUXAZFaeZk7UTi1R77J6XkpZp9VvR6cR7SYey.jpeg') !!});">
 
         <div class="container g-color-white text-center g-pos-rel g-z-index-1 g-py-150">
             <h1 class="h2 g-font-weight-300">It is good to meet you</h1>
@@ -36,31 +36,33 @@
 
                     {{-- Contact Details --}}
                     <ul class="list-unstyled g-color-white-opacity-0_7 g-font-weight-300 g-font-size-13 g-line-height-1_8 mb-0">
+                        {{--<li class="g-my-30">--}}
+                            {{--<div class="media">--}}
+                                {{--<i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-hotel-restaurant-235 u-line-icon-pro"></i>--}}
+                                {{--<div class="media-body">--}}
+                                    {{--New York,--}}
+                                    {{--<br>Unit 25 Suite 3, 925 Prospect PI--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
+                        {{--<li class="g-my-30">--}}
+                            {{--<div class="media">--}}
+                                {{--<i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-communication-062 u-line-icon-pro"></i>--}}
+                                {{--<div class="media-body">--}}
+                                    {{--info@gmail.com--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
+                        @foreach(\App\Contact::orderBy('order','desc')->get() as $contact)
                         <li class="g-my-30">
                             <div class="media">
-                                <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-hotel-restaurant-235 u-line-icon-pro"></i>
+                                <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 {!! $contact->icon !!} u-line-icon-pro"></i>
                                 <div class="media-body">
-                                    New York,
-                                    <br>Unit 25 Suite 3, 925 Prospect PI
+                                    {!! $contact->valu !!}
                                 </div>
                             </div>
                         </li>
-                        <li class="g-my-30">
-                            <div class="media">
-                                <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-communication-062 u-line-icon-pro"></i>
-                                <div class="media-body">
-                                    info@gmail.com
-                                </div>
-                            </div>
-                        </li>
-                        <li class="g-my-30">
-                            <div class="media">
-                                <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-communication-033 u-line-icon-pro"></i>
-                                <div class="media-body">
-                                    +32 333 444 555
-                                </div>
-                            </div>
-                        </li>
+                        @endforeach
                         <li>
                             <div class="media">
                                 <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-education-097 u-line-icon-pro"></i>
