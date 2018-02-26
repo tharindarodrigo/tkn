@@ -37,31 +37,31 @@
                     {{-- Contact Details --}}
                     <ul class="list-unstyled g-color-white-opacity-0_7 g-font-weight-300 g-font-size-13 g-line-height-1_8 mb-0">
                         {{--<li class="g-my-30">--}}
-                            {{--<div class="media">--}}
-                                {{--<i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-hotel-restaurant-235 u-line-icon-pro"></i>--}}
-                                {{--<div class="media-body">--}}
-                                    {{--New York,--}}
-                                    {{--<br>Unit 25 Suite 3, 925 Prospect PI--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
+                        {{--<div class="media">--}}
+                        {{--<i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-hotel-restaurant-235 u-line-icon-pro"></i>--}}
+                        {{--<div class="media-body">--}}
+                        {{--New York,--}}
+                        {{--<br>Unit 25 Suite 3, 925 Prospect PI--}}
+                        {{--</div>--}}
+                        {{--</div>--}}
                         {{--</li>--}}
                         {{--<li class="g-my-30">--}}
-                            {{--<div class="media">--}}
-                                {{--<i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-communication-062 u-line-icon-pro"></i>--}}
-                                {{--<div class="media-body">--}}
-                                    {{--info@gmail.com--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
+                        {{--<div class="media">--}}
+                        {{--<i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 icon-communication-062 u-line-icon-pro"></i>--}}
+                        {{--<div class="media-body">--}}
+                        {{--info@gmail.com--}}
+                        {{--</div>--}}
+                        {{--</div>--}}
                         {{--</li>--}}
-                        @foreach(\App\Contact::orderBy('order','desc')->get() as $contact)
-                        <li class="g-my-30">
-                            <div class="media">
-                                <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 {!! $contact->icon !!} u-line-icon-pro"></i>
-                                <div class="media-body">
-                                    {!! $contact->value !!}
+                        @foreach(\App\Contact::orderBy('order','desc')->where('status',1)->get() as $contact)
+                            <li class="g-my-30">
+                                <div class="media">
+                                    <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 {!! $contact->icon !!} u-line-icon-pro"></i>
+                                    <div class="media-body">
+                                        {!! $contact->value !!}
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
                         @endforeach
                         <li>
                             <div class="media">
