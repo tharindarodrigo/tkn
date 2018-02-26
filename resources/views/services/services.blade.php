@@ -5,27 +5,27 @@
 @endpush
 
 @section('content')
-    <!-- Promo Block -->
+    {{-- Promo Block --}}
     <section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall " data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
-      <!-- Parallax Image -->
+      {{-- Parallax Image --}}
       <div class="divimage dzsparallaxer--target w-100 g-bg-cover g-bg-size-cover g-bg-pos-top-center g-bg-black-opacity-0_3--after" style="height: 140%; background-image: url(../../assets/img-temp/1920x800/img11.jpg);"></div>
-      <!-- End Parallax Image -->
+      {{-- End Parallax Image --}}
 
-      <!-- Promo Block Content -->
+      {{-- Promo Block Content --}}
       <div class="container g-color-white text-center g-py-150">
         <h2 class="h3 text-uppercase mb-2">Our services</h2>
         <p class="g-font-weight-600 g-font-size-40 text-uppercase">Creative freedom matters</p>
       </div>
-      <!-- Promo Block Content -->
+      {{-- Promo Block Content --}}
     </section>
-    <!-- End Promo Block -->
+    {{-- End Promo Block --}}
 
-    <!-- Icon Blocks v13 -->
+    {{-- Icon Blocks v13 --}}
     <section class="container g-pt-100 g-pb-70">
-      <!-- Icon Blocks -->
+      {{-- Icon Blocks --}}
       <div class="row">
         <div class="col-lg-4 g-mb-30">
-          <!-- Icon Blocks -->
+          {{-- Icon Blocks --}}
           <div class="media">
             <div class="d-flex mr-4">
               <span class="u-icon-v2 u-icon-size--sm g-color-primary rounded-circle">
@@ -38,11 +38,11 @@
               <a class="g-font-size-12 g-text-underline--none--hover text-uppercase" href="#!">Learn More</a>
             </div>
           </div>
-          <!-- End Icon Blocks -->
+          {{-- End Icon Blocks --}}
         </div>
 
         <div class="col-lg-4 g-mb-30">
-          <!-- Icon Blocks -->
+          {{-- Icon Blocks --}}
           <div class="media">
             <div class="d-flex mr-4">
               <span class="u-icon-v2 u-icon-size--sm g-color-primary rounded-circle">
@@ -55,11 +55,11 @@
               <a class="g-font-size-12 g-text-underline--none--hover text-uppercase" href="#!">Learn More</a>
             </div>
           </div>
-          <!-- End Icon Blocks -->
+          {{-- End Icon Blocks --}}
         </div>
 
         <div class="col-lg-4 g-mb-30">
-          <!-- Icon Blocks -->
+          {{-- Icon Blocks --}}
           <div class="media">
             <div class="d-flex mr-4">
               <span class="u-icon-v2 u-icon-size--sm g-color-primary rounded-circle">
@@ -72,31 +72,31 @@
               <a class="g-font-size-12 g-text-underline--none--hover text-uppercase" href="#!">Learn More</a>
             </div>
           </div>
-          <!-- End Icon Blocks -->
+          {{-- End Icon Blocks --}}
         </div>
       </div>
-      <!-- End Icon Blocks -->
+      {{-- End Icon Blocks --}}
     </section>
-    <!-- End Icon Blocks v13 -->
+    {{-- End Icon Blocks v13 --}}
 
     <section class="g-bg-secondary">
       <div class="container g-pt-100 g-pb-40">
         <div class="row justify-content-center g-mb-60">
           <div class="col-lg-7">
-            <!-- Heading -->
+            {{-- Heading --}}
             <div class="text-center">
               <h2 class="h3 g-color-black text-uppercase mb-2">Our process</h2>
               <div class="d-inline-block g-width-35 g-height-2 g-bg-primary mb-2"></div>
               <p class="lead mb-0">We are a creative person focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
             </div>
-            <!-- End Heading -->
+            {{-- End Heading --}}
           </div>
         </div>
 
-        <!-- Static Process -->
+        {{-- Static Process --}}
         <div class="row">
           <div class="col-sm-6 col-lg-3 g-mb-60">
-            <!-- Static Process -->
+            {{-- Static Process --}}
             <div class="text-center">
               <i class="u-dot-line-v1-2 g-brd-transparent--before g-brd-gray-light-v2--after g-mb-20">
                   <span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2"></span>
@@ -104,11 +104,11 @@
               <h3 class="h5 g-color-black mb-20">Consult</h3>
               <p class="mb-0">This is where we sit down, grab a cup of coffee and dial in the details.</p>
             </div>
-            <!-- End Static Process -->
+            {{-- End Static Process --}}
           </div>
 
           <div class="col-sm-6 col-lg-3 g-mb-60">
-            <!-- Static Process -->
+            {{-- Static Process --}}
             <div class="text-center">
               <i class="u-dot-line-v1-2 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-20">
                   <span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2"></span>
@@ -116,11 +116,11 @@
               <h3 class="h5 g-color-black mb-20">Plan</h3>
               <p class="mb-0">Now that we've aligned the details, it's time to get things organized.</p>
             </div>
-            <!-- End Static Process -->
+            {{-- End Static Process --}}
           </div>
 
           <div class="col-sm-6 col-lg-3 g-mb-60">
-            <!-- Static Process -->
+            {{-- Static Process --}}
             <div class="text-center">
               <i class="u-dot-line-v1-2 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-20">
                   <span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2"></span>
@@ -128,11 +128,11 @@
               <h3 class="h5 g-color-black mb-20">Create</h3>
               <p class="mb-0">We begin to visualize your sketches and make them into beautiful pixels.</p>
             </div>
-            <!-- End Static Process -->
+            {{-- End Static Process --}}
           </div>
 
           <div class="col-sm-6 col-lg-3 g-mb-60">
-            <!-- Static Process -->
+            {{-- Static Process --}}
             <div class="text-center">
               <i class="u-dot-line-v1-2 g-brd-gray-light-v2--before g-brd-transparent--after g-mb-20">
                   <span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2"></span>
@@ -140,14 +140,14 @@
               <h3 class="h5 g-color-black mb-20">Release</h3>
               <p class="mb-0">Your brand is all dressed up and ready to party, it's time to release.</p>
             </div>
-            <!-- End Static Process -->
+            {{-- End Static Process --}}
           </div>
         </div>
-        <!-- End Static Process -->
+        {{-- End Static Process --}}
       </div>
     </section>
 
-    <!-- Section -->
+    {{-- Section --}}
     <section class="container g-pt-100 g-pb-40">
       <div class="row">
         <div class="col-lg-6 align-self-center g-mb-60">
@@ -186,27 +186,27 @@
         </div>
       </div>
     </section>
-    <!-- End Section -->
+    {{-- End Section --}}
 
-    <!-- Icon Blocks -->
+    {{-- Icon Blocks --}}
     <section class="g-bg-secondary">
       <div class="container g-pt-100 g-pb-40">
         <div class="row justify-content-center g-mb-60">
           <div class="col-lg-7">
-            <!-- Heading -->
+            {{-- Heading --}}
             <div class="text-center">
               <h2 class="h3 g-color-black text-uppercase mb-2">Our services</h2>
               <div class="d-inline-block g-width-35 g-height-2 g-bg-primary mb-2"></div>
               <p class="lead mb-0">We are a creative person focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
             </div>
-            <!-- End Heading -->
+            {{-- End Heading --}}
           </div>
         </div>
 
-        <!-- Icon Blocks -->
+        {{-- Icon Blocks --}}
         <div class="row">
           <div class="col-lg-4 align-self-center g-mb-30">
-            <!-- Icon Blocks -->
+            {{-- Icon Blocks --}}
             <div class="media g-mb-30">
               <div class="d-flex mr-4">
                 <span class="u-icon-v3 u-icon-size--sm g-color-white g-bg-primary rounded-circle">
@@ -218,9 +218,9 @@
                 <p class="g-color-gray-dark-v4">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
               </div>
             </div>
-            <!-- End Icon Blocks -->
+            {{-- End Icon Blocks --}}
 
-            <!-- Icon Blocks -->
+            {{-- Icon Blocks --}}
             <div class="media g-mb-30">
               <div class="d-flex mr-4">
                 <span class="u-icon-v3 u-icon-size--sm g-color-white g-bg-primary rounded-circle">
@@ -232,11 +232,11 @@
                 <p class="g-color-gray-dark-v4">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
               </div>
             </div>
-            <!-- End Icon Blocks -->
+            {{-- End Icon Blocks --}}
           </div>
 
           <div class="col-lg-4 align-self-center g-mb-30">
-            <!-- Icon Blocks -->
+            {{-- Icon Blocks --}}
             <div class="media g-mb-30">
               <div class="d-flex mr-4">
                 <span class="u-icon-v3 u-icon-size--sm g-color-white g-bg-primary rounded-circle">
@@ -248,9 +248,9 @@
                 <p class="g-color-gray-dark-v4">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
               </div>
             </div>
-            <!-- End Icon Blocks -->
+            {{-- End Icon Blocks --}}
 
-            <!-- Icon Blocks -->
+            {{-- Icon Blocks --}}
             <div class="media g-mb-30">
               <div class="d-flex mr-4">
                 <span class="u-icon-v3 u-icon-size--sm g-color-white g-bg-primary rounded-circle">
@@ -262,7 +262,7 @@
                 <p class="g-color-gray-dark-v4">We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
               </div>
             </div>
-            <!-- End Icon Blocks -->
+            {{-- End Icon Blocks --}}
           </div>
 
           <div class="col-lg-4 align-self-center g-mb-30">
@@ -271,16 +271,16 @@
             </div>
           </div>
         </div>
-        <!-- End Icon Blocks -->
+        {{-- End Icon Blocks --}}
       </div>
     </section>
-    <!-- End Icon Blocks -->
+    {{-- End Icon Blocks --}}
 
-    <!-- Counters -->
+    {{-- Counters --}}
     <section class="dzsparallaxer auto-init height-is-based-on-content">
-      <!-- Parallax Image -->
+      {{-- Parallax Image --}}
       <div class="dzsparallaxer--target w-100 g-bg-cover g-bg-size-cover g-bg-pos-center g-bg-black-opacity-0_4--after" style="height: 140%; background: url(../../assets/img-temp/1920x800/img8.jpg)"></div>
-      <!-- End Parallax Image -->
+      {{-- End Parallax Image --}}
 
       <div class="container u-bg-overlay__inner g-pt-130 g-pb-70">
         <div class="row text-center g-color-white">
@@ -322,28 +322,28 @@
         </div>
       </div>
     </section>
-    <!-- Counters -->
+    {{-- Counters --}}
 
-    <!-- Testimonials Advanced -->
+    {{-- Testimonials Advanced --}}
     <section class="container g-py-100">
       <div class="row justify-content-center g-mb-60">
         <div class="col-lg-7">
-          <!-- Heading -->
+          {{-- Heading --}}
           <div class="text-center">
             <h2 class="h3 g-color-black text-uppercase mb-2">What people say</h2>
             <div class="d-inline-block g-width-35 g-height-2 g-bg-primary mb-2"></div>
           </div>
-          <!-- End Heading -->
+          {{-- End Heading --}}
         </div>
       </div>
 
-      <!-- Testimonials Advanced -->
+      {{-- Testimonials Advanced --}}
       <div class="js-carousel" data-infinite="true" data-arrows-classes="u-arrow-v1 g-width-50 g-height-50 g-brd-1 g-brd-style-solid g-brd-gray-light-v1 g-brd-primary--hover g-color-gray-dark-v5 g-bg-primary--hover g-color-white--hover g-absolute-centered--y rounded-circle g-mt-minus-25"
       data-arrow-left-classes="fa fa-angle-left g-left-0" data-arrow-right-classes="fa fa-angle-right g-right-0">
         <div class="js-slide">
           <div class="row justify-content-center">
             <div class="col-lg-7">
-              <!-- Testimonial Advanced -->
+              {{-- Testimonial Advanced --}}
               <div class="g-pos-rel g-pt-40">
                 <em class="g-color-gray-light-v5 g-font-size-120 g-pos-abs g-top-minus-15 g-left-minus-15 g-z-index-minus-1">
                     &#8220;
@@ -359,7 +359,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End Testimonial Advanced -->
+              {{-- End Testimonial Advanced --}}
             </div>
           </div>
         </div>
@@ -367,7 +367,7 @@
         <div class="js-slide">
           <div class="row justify-content-center">
             <div class="col-lg-7">
-              <!-- Testimonial Advanced -->
+              {{-- Testimonial Advanced --}}
               <div class="g-pos-rel g-pt-40">
                 <em class="g-color-gray-light-v5 g-font-size-120 g-pos-abs g-top-minus-15 g-left-minus-15 g-z-index-minus-1">
                     &#8220;
@@ -383,16 +383,16 @@
                   </div>
                 </div>
               </div>
-              <!-- End Testimonial Advanced -->
+              {{-- End Testimonial Advanced --}}
             </div>
           </div>
         </div>
       </div>
-      <!-- End Testimonials Advanced -->
+      {{-- End Testimonials Advanced --}}
     </section>
-    <!-- End Testimonials Advanced -->
+    {{-- End Testimonials Advanced --}}
 
-    <!-- Clients -->
+    {{-- Clients --}}
     <div class="g-bg-gray-light-v5">
       <div class="container g-py-70">
         <div id="carousel1" class="js-carousel" data-infinite="true" data-autoplay="true" data-slides-show="6">
@@ -434,7 +434,7 @@
         </div>
       </div>
     </div>
-    <!-- End Clients -->
+    {{-- End Clients --}}
 
     {{-- Clients --}}
     @include('layout.clients')
