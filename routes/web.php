@@ -23,6 +23,9 @@ Route::get('/contact', function(){
     return view('contact.index');
 });
 
+Route::get('/services', function(){
+    return view('services.services');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

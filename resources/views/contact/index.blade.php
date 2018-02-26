@@ -58,7 +58,7 @@
                             <div class="media">
                                 <i class="d-flex g-color-primary g-font-size-20 mt-1 mr-4 {!! $contact->icon !!} u-line-icon-pro"></i>
                                 <div class="media-body">
-                                    {!! $contact->valu !!}
+                                    {!! $contact->value !!}
                                 </div>
                             </div>
                         </li>
