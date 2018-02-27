@@ -10,7 +10,7 @@
              data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
         {{-- Parallax Image --}}
         <div class="divimage dzsparallaxer--target w-100 g-bg-cover g-bg-pos-center g-bg-black-opacity-0_2--after"
-             style="height: 140%; background-image: url(../../assets/img-temp/1920x800/img5.jpg);"></div>
+             style="height: 140%; background-image: url({!! asset('storage/abouts/about.jpeg') !!});"></div>
         {{-- End Parallax Image --}} {{-- Promo Block Content --}}
         <div class="container g-color-white text-center g-py-150">
             <span class="d-block g-font-weight-300 g-font-size-25 mb-3">Discover more about us</span>
@@ -34,7 +34,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 g-mb-50">
-                <img class="img-fluid" src="{!! asset('storage/abouts/about.jpeg') !!}" alt="Image Description">
+                <img class="img-fluid" src="../../assets/img-temp/600x330/img1.png" alt="Image Description">
             </div>
             <div class="col-lg-6">
                 <div class="mb-5">
