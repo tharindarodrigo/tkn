@@ -34,7 +34,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 g-mb-50">
-                <img class="img-fluid" src="../../assets/img-temp/600x330/img1.png" alt="Image Description">
+                <img class="img-fluid" src="{!!  !!}" alt="Image Description">
             </div>
             <div class="col-lg-6">
                 <div class="mb-5">

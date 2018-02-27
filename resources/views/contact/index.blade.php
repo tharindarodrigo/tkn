@@ -7,7 +7,7 @@
 @section('content')
     {{-- Promo Block --}}
     <section class="u-bg-overlay g-bg-size-cover g-bg-pos-center g-bg-black-opacity-0_3--after"
-             style="background-image: url({!! url('storage/abouts/NCObUXAZFaeZk7UTi1R77J6XkpZp9VvR6cR7SYey.jpeg') !!});">
+             style="background-image: url({!! url('storage/contacts/contact.jpeg.jpeg') !!});">
 
         <div class="container g-color-white text-center g-pos-rel g-z-index-1 g-py-150">
             <h1 class="h2 g-font-weight-300">It is good to meet you</h1>
