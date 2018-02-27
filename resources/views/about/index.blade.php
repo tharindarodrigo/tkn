@@ -34,7 +34,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 g-mb-50">
-                <img class="img-fluid" src="{!!  !!}" alt="Image Description">
+                <img class="img-fluid" src="{!! asset('storage/abouts/about.jpeg') !!}" alt="Image Description">
             </div>
             <div class="col-lg-6">
                 <div class="mb-5">
